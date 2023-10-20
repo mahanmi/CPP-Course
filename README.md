@@ -4,3 +4,4 @@
 <h1 style="font-size:25px;"> Sessions </h1>
 <h2 style="font-size:18px;"> 1 & 2 
 <p style="font-size:12px;">  How to install CLion and Crack it </p>
+</h2>
