@@ -1,12 +1,11 @@
 #include "iostream"
-using namespace std;
 int main(int argc, char const *argv[])
 {
-  int a = 5;
-  int b = 6;
-  int tmp = a;
-  a = b;
-  b = tmp;
-  cout << "a = " << a << endl;
+  double x = 10;
+  double y = 5;
+  double z = (x + 10) / (3 * y);
+  std::cout << "x = " << x << " ";
+  std::cout << "y = " << y << std::endl;
+  std::cout << "z = " << z << std::endl;
   return 0;
 }
