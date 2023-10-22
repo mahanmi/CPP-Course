@@ -81,7 +81,7 @@
 ## About The Course
 
 I have been started learning C++ in Univercity. This repository is for my programming course at university. I will upload my homeworks and projects here. I hope you enjoy it.
-(Prof. [Dr. Bojan VosoughiVahdat](http://scimet.sharif.ac.ir/Bijan_VosoughiVahdat))
+(Prof. [Dr. Bijan VosoughiVahdat](http://scimet.sharif.ac.ir/Bijan_VosoughiVahdat))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
