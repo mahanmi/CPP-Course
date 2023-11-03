@@ -4,14 +4,7 @@ int main()
 {
   int distance, ans;
   cin >> distance;
-  if (distance % 5 == 0)
-  {
-    ans = distance / 5;
-  }
-  else
-  {
-    ans = (distance / 5) + 1;
-  }
+  ans = (distance + 4) / 5;
   std::cout << ans << std::endl;
   return 0;
 }
