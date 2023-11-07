@@ -3,8 +3,8 @@
 using namespace std;
 int main()
 {
-  int input, x, y;
-  float total, n;
+  long input, x, y;
+  double total, n;
   n = 0;
   total = 0;
   while (input != 0)
@@ -18,8 +18,7 @@ int main()
     else
     {
       n += 1;
-      x = input;
-      total = x + total;
+      total = input + total;
     }
   }
   return 0;
