@@ -2,43 +2,43 @@
 using namespace std;
 int main()
 {
-  long amount, a, b, c, n_peak = 0, n_valley = 0;
-  cin >> amount >> a >> b;
-  for (int i = 3; i <= amount; i++)
+  int amount, a, b, c, peak = 0, valley = 0;
+  cin >> amount;
+  cin >> a >> b;
+  for (int i = 2; i < amount; i++)
   {
     cin >> c;
     if (b > a && b > c)
     {
-      if (n_valley != 0 || n_peak != 0)
+      if (peak == 0 && valley == 0)
       {
-        n_peak = i - 2;
-        std::cout << "      " << n_peak;
+        peak = i - 1;
+        cout << peak;
       }
       else
       {
-        n_peak = i - 2;
-        std::cout << n_peak;
+        peak = i - 1;
+        cout << "       " << peak;
       }
     }
     else if (b < a && b < c)
     {
-
-      if (n_valley != 0 || n_peak != 0)
+      if (peak == 0 && valley == 0)
       {
-        n_valley = i - 2;
-        std::cout << "      " << n_valley;
+        valley = i - 1;
+        cout << valley;
       }
       else
       {
-        n_valley = i - 2;
-        std::cout << n_valley;
+        valley = i - 1;
+        cout << "       " << valley;
       }
     }
     a = b, b = c;
   }
-  if (n_valley == 0 && n_peak == 0)
+  if (valley == 0 && peak == 0)
   {
-    cout << "Null";
+    std::cout << "Null" << std::endl;
   }
   return 0;
 }
