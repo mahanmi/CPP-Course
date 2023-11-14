@@ -21,6 +21,5 @@ int main()
     }
   }
   cout << crime << endl;
-
   return 0;
 }
