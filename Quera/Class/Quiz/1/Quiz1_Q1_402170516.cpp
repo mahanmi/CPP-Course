@@ -12,11 +12,11 @@ int main()
   a = x1, b = x2 - x1, c = n - x2;
   if ((abs(c - a) < b && b < abs(c + a)) && (abs(b - a) < c && c < abs(b + a)) && (abs(c - b) < a && a < abs(c + b)))
   {
-    std::cout << "YES" << std::endl;
+    cout << "YES" << endl;
   }
   else
   {
-    std::cout << "NO" << std::endl;
+    cout << "NO" << endl;
   }
   return 0;
 }
