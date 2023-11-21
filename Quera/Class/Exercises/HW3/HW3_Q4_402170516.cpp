@@ -8,8 +8,7 @@ int main()
   int n, h, x = 0;
   cin >> n >> h;
   int line_count = (n * (h - 1) + 1);
-  hashtag_printer(line_count);
-  for (int i = 1; i < line_count; i++)
+  for (int i = 0; i < line_count; i++)
   {
     if (i % (h - 1) == 0)
     {
