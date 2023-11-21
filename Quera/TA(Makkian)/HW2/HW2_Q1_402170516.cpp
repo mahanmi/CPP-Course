@@ -1,7 +1,7 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
-int sumDigits(unsigned long long number)
+int sumDigits(long long number)
 {
   int sum = 0;
   while (number > 0)
@@ -13,11 +13,11 @@ int sumDigits(unsigned long long number)
 }
 int main()
 {
-  unsigned long long m, s, min = 1e18, max = 0;
+  long long m, s, min = 1e18, max = 0;
   bool isMinFound = false, isMaxFound = false;
   cin >> m >> s;
-  unsigned long long from = pow(10, (m - 1)), to = pow(10, m);
-  for (unsigned long long i = from; i < to; i++)
+  long long from = pow(10, (m - 1)), to = pow(10, m);
+  for (long long i = from - 1; i < to; i++)
   {
     if (sumDigits(i) == s)
     {
@@ -26,7 +26,7 @@ int main()
       break;
     }
   }
-  for (unsigned long long i = (to - 1); i >= from; i--)
+  for (long long i = (to - 1); i >= from - 1; i--)
   {
     if (sumDigits(i) == s)
     {
