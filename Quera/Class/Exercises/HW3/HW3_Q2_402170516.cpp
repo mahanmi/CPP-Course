@@ -17,7 +17,7 @@ int main()
 }
 void string_multiply(int n, string ch)
 {
-  for (size_t i = 0; i < n; i++)
+  for (int i = 0; i < n; i++)
   {
     cout << ch;
   }
