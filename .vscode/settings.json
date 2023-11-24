@@ -53,14 +53,8 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "cSpell.words": [
-    "Arman",
-    "Bijan",
-    "Vahdat",
-    "Vosoughi"
-  ],
+  "cSpell.words": ["Arman", "Bijan", "Vahdat", "Vosoughi"],
   "files.associations": {
     "iosfwd": "cpp"
-  },
-  "C_Cpp.errorSquiggles": "disabled"
+  }
 }
