@@ -6,14 +6,12 @@ using namespace std;
 int main()
 {
   IoFast;
-
-  int quantity, questions;
-  cin >> quantity >> questions;
+  int products, questions;
+  cin >> products >> questions;
   int answers[100000] = {0};
   int productID[100000];
-  int productID_check[1000000];
   int finalPrint[questions];
-  for (int i = 0; i < quantity; i++)
+  for (int i = 0; i < products; i++)
   {
     int input;
     cin >> input;
@@ -28,11 +26,9 @@ int main()
   }
   for (int i = 0; i < questions; i++)
   {
-    cin >> finalPrint[i];
-  }
-  for (int i = 0; i < questions; i++)
-  {
-    cout << answers[finalPrint[i] - 1] << endl;
+    int input;
+    cin >> input;
+    cout << answers[input - 1] << endl;
   }
   return 0;
 }
