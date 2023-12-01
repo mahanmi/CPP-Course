@@ -42,3 +42,44 @@ void printArray(int array[], int n)
   }
   cout << "\b\b}" << endl;
 }
+// ###################################################################
+//
+void swap(long long int &a, long long int &b)
+{
+  long long int temp;
+  temp = a;
+  a = b;
+  b = temp;
+}
+// ###################################################################
+//
+void sort(long long int &a, long long int &b, long long int &c)
+{
+  for (int i = 0; i < 2; i++)
+  {
+    if (a > b)
+    {
+      swap(a, b);
+    }
+    if (c < b)
+    {
+      swap(b, c);
+    }
+  }
+}
+// ###################################################################
+//
+void sortInverse(long long int &a, long long int &b, long long int &c)
+{
+  for (int i = 0; i < 2; i++)
+  {
+    if (a < b)
+    {
+      swap(a, b);
+    }
+    if (c > b)
+    {
+      swap(b, c);
+    }
+  }
+}
