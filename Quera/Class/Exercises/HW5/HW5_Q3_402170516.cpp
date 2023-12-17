@@ -14,7 +14,6 @@ void matrixMultiply(long long int matrix1[][50], long long int matrix2[][50], in
       for (int k = 0; k < n; k++)
       {
         result[i][j] += ((matrix1[i][k] % mod) * (matrix2[k][j] % mod) % mod);
-        result[i][j] %= mod;
       }
     }
   }
@@ -22,7 +21,7 @@ void matrixMultiply(long long int matrix1[][50], long long int matrix2[][50], in
   {
     for (int j = 0; j < n; j++)
     {
-      matrix1[i][j] = (result[i][j] % mod);
+      matrix1[i][j] = result[i][j];
     }
   }
 }
