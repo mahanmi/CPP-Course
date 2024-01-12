@@ -2,6 +2,12 @@
 #include "SDL_Headers.h"
 using namespace std;
 
+void switchColors(double &R_R1, double &G_R1, double &B_R1, double &R_R2, double &G_R2, double &B_R2)
+{
+  double R_R1_i = R_R1, G_R1_i = G_R1, B_R1_i = B_R1, R_R2_i = R_R2, G_R2_i = G_R2, B_R2_i = B_R2;
+  R_R1 = R_R2_i, G_R1 = G_R2_i, B_R1 = B_R2_i, R_R2 = R_R1_i, G_R2 = G_R1_i, B_R2 = B_R1_i;
+}
+
 int main(int argc, char const *argv[])
 {
   int WIDTH = 1200, HEIGHT = 960;
@@ -42,6 +48,7 @@ int main(int argc, char const *argv[])
         X0_R1 -= Vx_R1, Y0_R1 -= Vy_R1, X0_R2 -= Vx_R2, Y0_R2 -= Vy_R2;
         double Vx_R1_i = Vx_R1, Vy_R1_i = Vy_R1, Vx_R2_i = Vx_R2, Vy_R2_i = Vy_R2;
         Vx_R1 = 0.2 * Vx_R1_i + 0.8 * Vx_R2_i, Vy_R1 = 0.8 * Vy_R2_i + 0.2 * Vy_R1_i, Vx_R2 = -0.2 * Vx_R2_i + 1.2 * Vx_R1_i, Vy_R2 = 1.2 * Vy_R1_i - 0.2 * Vy_R2_i;
+        switchColors(R_R1, G_R1, B_R1, R_R2, G_R2, B_R2);
         cout << "\033[32mThe circles collided. Vx_R1=" << Vx_R1 << " Vy_R1=" << Vy_R1 << " Vx_R2=" << Vx_R2 << " Vy_R2=" << Vy_R2 << "\033[0m" << endl;
       }
       SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
