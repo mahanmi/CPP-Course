@@ -18,7 +18,10 @@
 				"cwd": "${workspaceFolder}/.vscode"
 			},
 			"problemMatcher": ["$gcc"],
-			"group": "build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
 			"detail": "Use this for SDL projects."
 		},
 		{
