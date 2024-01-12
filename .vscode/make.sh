@@ -1,4 +1,5 @@
 #!/bin/bash
 cd /Users/mahan/Documents/VS\ Code/C++/SDL
-result=$(echo "$1" | sed 's/\/Users\/mahan\/Documents\/VS Code\/C++\/SDL\///')
-make SRC_DIR="$result"
+src=$(echo "$1" | sed 's/\/Users\/mahan\/Documents\/VS Code\/C++\/SDL\///')
+file_name="$2"
+make SRC_DIR="$src" FILE_NAME="$file_name"

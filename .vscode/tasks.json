@@ -12,6 +12,10 @@
 				{
 					"value": "${fileDirname}",
 					"quoting": "escape"
+				},
+				{
+					"value": "${fileBasename}",
+					"quoting": "escape"
 				}
 			],
 			"options": {
