@@ -37,15 +37,12 @@
 
   <p align="center">
     This Repository is For My Programming Class at University
-    <br />
-    <a href="https://github.com/mahanmi/CPP-Course"><strong>Explore the docs »</strong></a>
-    <br />
+   <!--  <br />
+    <a href="https://github.com/mahanmi/CPP-Course"><strong>Explore the docs »</strong></a> -->
     <br />
     <!-- <a href="https://github.com/mahanmi/CPP-Course">View Demo</a>
     · -->
     <a href="https://github.com/mahanmi/CPP-Course/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/mahanmi/CPP-Course/issues">Request Feature</a>
   </p>
 </div>
 
@@ -66,9 +63,9 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li> -->
-    <li><a href="#sessions">Sessions</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#exercises">Exercises</a></li>
+    <li><a href="#quiz">Quiz</a></li>
+    <li><a href="#project">Project</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -142,40 +139,47 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-<!-- Sessions -->
-
-## Sessions
-
-- 1 & 2
-  - How to install and Crack CLion
-- 3
-  - Binary Code
-  - Hex Format
-  - Bit & Byte
-  - How to Convert Hex to Decimal
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-- [x] Work with COUT & CIN
-- [x] Use sting and intiger
-- [ ] Use if and switch
-
-See the [open issues](https://github.com/mahanmi/CPP-Course/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- Exercises -->
 
 ## Exercises
 
-- 0
-  - COUT << "EE402"
+We have some exercises in this course. The exercises are in the Quera platform. The exercises are in the following folders:
+
+- [HW0](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Exercises/HW0)
+- [HW1](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Exercises/HW1)
+- [HW2](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Exercises/HW2)
+- [HW3](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Exercises/HW3)
+- [HW4](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Exercises/HW4)
+- [HW5](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Exercises/HW5) (SDL2 Required)
+- [HW6](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Exercises/HW6)
+- [HW7](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Exercises/HW7)
+- [BONUS](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Exercises/BONUS)
+
+The Question Files PDF are in the folder of each homework.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Quiz -->
+
+## Quiz
+
+We have some quizzes in this course too. The quizzes are in the Quera platform. The quizzes are in the following folders:
+
+- [Quiz1](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Quiz/1)
+- [Quiz2](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Quiz/2)
+- [Quiz3](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Quiz/3)
+- [Quiz4](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Quiz/4)
+- [Quiz5](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Quiz/5)
+- [Quiz6](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Quiz/6)
+- [Quiz7](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Quiz/7)
+- [Quiz8](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Quiz/8)
+- [BONUS](https://github.com/mahanmi/CPP-Course/tree/master/Quera/Class/Quiz/BONUS)
+
+<!-- Project -->
+
+## Project
+
+The Project is a game called "Bouncing Balls" which is a 2D game. The game is written in C++ and uses SDL2 library for graphics and sound. The Project Repository is [Here](https://github.com/mahanmi/Bouncing-Balls)
 
 <!-- CONTRIBUTING -->
 
@@ -206,7 +210,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Mahan Majlesi - [Telegram: @mahan_m_i](https://t.me/mahan_m_i) - mahan_majlesi@ee.sharif.edu.com
+Mahan Majlesi - [Telegram: @mahan_m_i](https://t.me/mahan_m_i)
 
 Project Link: [https://github.com/mahanmi/CPP-Course](https://github.com/mahanmi/CPP-Course)
 
@@ -216,7 +220,7 @@ Project Link: [https://github.com/mahanmi/CPP-Course](https://github.com/mahanmi
 
 ## Acknowledgments
 
-- [Sharif University of Technology](sharif.edu)
+- [Sharif University of Technology](sharif.ir)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

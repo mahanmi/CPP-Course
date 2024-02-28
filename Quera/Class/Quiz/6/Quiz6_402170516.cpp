@@ -1,3 +1,5 @@
+// This solution did not meet the time limit requirements during the exam.
+
 #include <iostream>
 #include <string>
 using namespace std;

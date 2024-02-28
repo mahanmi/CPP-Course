@@ -1,3 +1,5 @@
+// Question link : https://codeforces.com/problemset/problem/1879/F
+
 #include <iostream>
 using namespace std;
 int findX(int n, int armor[]);
